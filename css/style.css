@@ -1,0 +1,45 @@
+:root {
+    --primary-color: #54BD95;
+    --secondary-color: #333;
+    --background-gradient-start: #e0f7fa;
+    --background-gradient-end: #f1f8e9;
+    --text-color: #A6A6A6;
+    --text-color-2: #A9A7B6;
+    --white: #fff;
+    --black: #000;
+    --background-color: #f9f9f9;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: var(--background-color);
+}
+/* 
+
+.logo {
+    color: var(--primary-color);
+}
+ */
+/* .header {
+    background: linear-gradient(to right, var(--background-gradient-start), var(--background-gradient-end));
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+} */
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.mneu-items ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
