@@ -10,11 +10,10 @@
     --background-color: #f9f9f9;
 }
 
-body {
+* {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: var(--background-color);
 }
 /* 
 
@@ -35,11 +34,35 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:  var(--background-gradient-start) , var(--background-gradient-end);
+}
+
+.mneu-items {
+    flex-basis: 1;
+}
+
+.nav_btn {
+    flex-basis: 1;
+
+}
+
+.logo{
+    color: var(--primary-color);
 }
 
 .mneu-items ul{
+    color: var(--text-color);
     display: flex;
-    justify-content: center;
-    align-items: center;
+    gap: 1em;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.mneu-items ul a {
+    color: var(--text-color);
+   
 }
